@@ -9,6 +9,7 @@ Operating Systems
 - Ubuntu 24.04 LTS (Noble Numbat)
 - RHEL 9.x (Pensando supported)
 
+<<<<<<< HEAD
 Software Requirements:
 -----------------------
 - ROCm Software Stack: Version 6.4.x (Pensando validated)
@@ -22,16 +23,28 @@ Hardware Requirements:
 - Pensando DSC-25 or DSC-100 SmartNIC
 - CPU with virtualization support (if containers require nested environments).
 
+=======
+>>>>>>> upstream/release/1.0.x
 Compatibility Matrix
 --------------------
+- Please refer to the compatibility matrix before proceeding.
 
-- Each AMD Container Toolkit release is tightly coupled with a specific ROCm and AMDGPU driver version. Please refer to the compatibility matrix before proceeding.
+.. list-table:: Compatibility Matrix
+    :header-rows: 1
+    :widths: 30 20
 
+<<<<<<< HEAD
 +--------------------------------------+---------------+-----------------------+-----------------------+
 | Container Toolkit Debian Version     | ROCm Version  | AMDGPU Driver Version | Pensando FW Version   |
 +--------------------------------------+---------------+-----------------------+-----------------------+
 | amd-container-toolkit-1.0.0          | ROCm 6.4.x    | 6.11.0                | 1.60.0                |
 +--------------------------------------+---------------+-----------------------+-----------------------+
+=======
+    * - Container Toolkit Debian Version
+      - Docker Version
+    * - amd-container-toolkit-1.0.0
+      - 25+
+>>>>>>> upstream/release/1.0.x
 
 Note
 ----
